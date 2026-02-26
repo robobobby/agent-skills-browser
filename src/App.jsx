@@ -106,7 +106,7 @@ function App() {
   const [selectedSkill, setSelectedSkill] = useState(null)
 
   useEffect(() => {
-    fetch('/skills-data.json')
+    fetch(import.meta.env.BASE_URL + 'skills-data.json')
       .then(r => r.json())
       .then(setData)
       .catch(console.error)
