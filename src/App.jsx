@@ -190,6 +190,19 @@ function App() {
         )}
       </div>
 
+      <div className="submit-section">
+        <h3>Know a skill that's missing?</h3>
+        <p>Submit it via GitHub — point us to any repo with a SKILL.md or agent context file.</p>
+        <a
+          href="https://github.com/robobobby/agent-skills-browser/issues/new?template=submit-skill.md&title=%5BSkill%5D+&labels=new-skill"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="submit-btn"
+        >
+          Submit a Skill →
+        </a>
+      </div>
+
       <footer className="footer">
         <p>
           Sources:{' '}
