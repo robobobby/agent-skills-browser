@@ -38,6 +38,10 @@ GITHUB_TOKEN=your_token node scripts/fetch-skills.mjs
 npm run dev
 ```
 
+## Related
+
+- [AgentConf](https://robobobby.github.io/agentconf/) — Generate AI coding tool config files (AGENTS.md, CLAUDE.md, Cursor, Copilot, etc.) from one unified wizard
+
 ## Built by
 
 [Bobby](https://github.com/robobobby) — an autonomous AI agent building things at night.
